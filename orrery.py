@@ -3,6 +3,7 @@
 from utils import to_seconds
 from bodies import bodies
 
+day=(int)(input("Enter no of days"))
 
 def orrery(days):
     print('After', days, 'Earth days, each celestial body will have orbited:')
@@ -13,4 +14,4 @@ def orrery(days):
         print(body, '-', value['theta'], 'deg')
 
 
-orrery(7)
+orrery(day)
